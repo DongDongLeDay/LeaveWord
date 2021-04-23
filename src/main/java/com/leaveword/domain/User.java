@@ -18,7 +18,7 @@ public class User {
     private int userId;
     @Column(nullable = false, columnDefinition = "varchar(40) COMMENT '用户名' default '未命名'")
     private String userName;
-    @Column(nullable = false, columnDefinition = "varchar(40) COMMENT '用户密码' default ' '")
+    @Column( nullable = false,columnDefinition = "varchar(40) COMMENT '用户密码' default ' '")
     private String userPassword;
     @JSONField(format="yyyy-MM-dd HH:mm:ss")
     @Column(nullable = false, columnDefinition = "datetime COMMENT '注册时间'")
