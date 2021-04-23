@@ -1,0 +1,8 @@
+
+.dockerignore
+.helmignore
+.idea/.name
+*.xml
+/target/
+/.idea/
+/.mvn/
